@@ -3,8 +3,6 @@ title: "Members"
 permalink: /members/
 layout: single
 author_profile: true
----
-
 author:
   name   : "Pruthul Kokkada Ravindranath"
   avatar : "/assets/images/ProfilePic.jpg"
@@ -16,3 +14,6 @@ author:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-link"
       url: "https://scholar.google.com/citations?hl=en&user=lQvqdqEAAAAJ"
+
+---
+
