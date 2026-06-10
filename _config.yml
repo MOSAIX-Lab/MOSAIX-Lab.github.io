@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Multiscale Modeling, Simulation & Integrated eXperimentation (MOSAIX) Lab
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: default
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
@@ -58,34 +58,34 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Pruthul Kokkada Ravindranath"
+  avatar : "/assets/images/ProfilePic.jpg"
+  bio    : "Dr. Pruthul Kokkada Ravindranath is an Assistant Professor in the Aerospace and Mechanical Engineering Department at Saint Louis University. Previously, he was a research scientist at Baylor University in the Scientific Innovations in Complex Engineering Materials Group within the Department of Mechanical Engineering. He obtained his Ph.D. in Aerospace Engineering and Mechanics from the University of Alabama, where his research focused on the atomic-scale study of carbon-based materials. Following the completion of his doctorate, he served as Graduate Faculty at the University of Alabama until 2020. Funded by the U.S. Army and having developed patented technologies certified by the Federal Aviation Administration (FAA), his research integrates computational and experimental solid mechanics. With extensive experience in advanced composite materials, polymer and metal additive manufacturing, molecular dynamics, finite element analysis, non-destructive evaluation, and materials characterization, he employs a closely coupled experimental and theoretical approach to advance the multifunctional properties of composite materials. His work has applications across the aerospace, mechanical, and materials industries."
   links:
-    - label: "Website"
+    - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.linkedin.com/in/pruthulkokkada/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-link"
+      url: "https://scholar.google.com/citations?hl=en&user=lQvqdqEAAAAJ"
+    #- label: "GitHub"
+     # icon: "fab fa-fw fa-github"
+      #url: "https://github.com/"
+    #- label: "Instagram"
+     # icon: "fab fa-fw fa-instagram"
+      #url: "https://instagram.com/"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+#footer:
+  #links:
+    #- label: "Twitter"
+      #icon: "fab fa-fw fa-twitter-square"
+     # url: "https://twitter.com/"
+    #- label: "GitHub"
+     # icon: "fab fa-fw fa-github"
+      #url: "https://github.com/"
+   # - label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+     # url: "https://instagram.com/"
 
 defaults:
   # _posts
