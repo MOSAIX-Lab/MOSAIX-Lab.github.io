@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-
+Background:
 Advanced functional materials used in aerospace, energy, and biomedical applications are typically composed of advanced metallic and composite systems. However, these structures face significant technical challenges when subjected to extreme environments such as impact loading, thermal extremes, and corrosive conditions. Enhancing the resistance of these materials under such conditions is essential for improving the safety, reliability, and longevity of engineered systems.
 
 This research integrates cutting-edge materials science, multiscale computational mechanics, and rigorous experimental validation through advanced non-destructive evaluation (NDE) techniques. This integrated framework enables the intentional design and engineering of multifunctional structural materials with improved long-term resilience and sustainability.
