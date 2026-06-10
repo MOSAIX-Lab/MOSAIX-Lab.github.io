@@ -14,3 +14,5 @@ This research integrates cutting-edge materials science, multiscale computationa
 
 The work builds upon established expertise in multiscale modeling and material characterization, with a particular focus on polymeric systems. The fundamental principles governing material behavior under extreme conditions are broadly applicable across aerospace and automotive engineering domains, as well as emerging areas such as in-space manufacturing.
 
+![Multiscale Hierarchical Workflow](/assets/images/Workflow.png "Multiscale Hierarchical Workflow - change")
+
