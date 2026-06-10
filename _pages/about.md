@@ -3,6 +3,9 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+Advanced functional materials used in aerospace, energy, and biomedical applications are typically composed of advanced metallic and composite systems. However, these structures face significant technical challenges when subjected to extreme environments such as impact loading, thermal extremes, and corrosive conditions. Enhancing the resistance of these materials under such conditions is essential for improving the safety, reliability, and longevity of engineered systems.
+
+This research integrates cutting-edge materials science, multiscale computational mechanics, and rigorous experimental validation through advanced non-destructive evaluation (NDE) techniques. This integrated framework enables the intentional design and engineering of multifunctional structural materials with improved long-term resilience and sustainability.
+
+The work builds upon established expertise in multiscale modeling and material characterization, with a particular focus on polymeric systems. The fundamental principles governing material behavior under extreme conditions are broadly applicable across aerospace and automotive engineering domains, as well as emerging areas such as in-space manufacturing.
