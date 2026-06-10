@@ -5,8 +5,8 @@
 layout: splash # or single, home, etc.
 title: "Welcome to MOSAIX Lab at Saint Louis University"
 header:
-  overlay_image: /assets/images/download.png
-  classes: right
+  overlay_image: /assets/images/SLULogo.png
+  type: right
   #overlay_filter: 0.1 # Optional: darkens image for text readability (0.1 to 1.0)
   #caption: "Photo credit: [Unsplash](https://unsplash.com)"
 
