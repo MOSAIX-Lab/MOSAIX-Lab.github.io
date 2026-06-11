@@ -1,13 +1,16 @@
 ---
 layout: splash
-title: "Welcome to MOSAIX Lab at Saint Louis University"
+#title: "Welcome to MOSAIX Lab at Saint Louis University"
 permalink: /
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.1"
   overlay_image: /assets/images/SLULogo.png
-excerpt: Small Scales. Big Impact...
+#excerpt: Small Scales. Big Impact...
 intro: 
+  - title: '** Welcome to MOSAIX Lab at Saint Louis University  **'
+  - ecerpt: 'Small Scales. Big Impact...'
+    
   - excerpt: 'The MOSAIX Lab advances the design and understanding of next-generation materials through the integration of computational modeling, multiscale simulations, and experimental characterization. Research in the lab focuses on uncovering the fundamental mechanisms that govern the behavior of composite, multifunctional, and advanced structural materials across length and time scales—from atoms and molecules to engineering structures.'
 
 feature_row:
