@@ -4,8 +4,8 @@ layout: splash
 #permalink: /
 header:
   #overlay_color: "#000"
-  overlay_filter: "0.1"
-  overlay_image: /assets/images/SLULogo.png
+  #overlay_filter: "0.1"
+  image: /assets/images/SLULogo.png
 #excerpt: Small Scales. Big Impact...
 intro: 
   - title: 'Welcome to MOSAIX Lab at Saint Louis University'
