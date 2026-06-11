@@ -62,10 +62,5 @@ Build. Simulate. Discover. Innovate. Join MOSAIX Lab and help shape the next gen
 Interested students are encouraged to contact:
 
 **Dr. Pruthul Kokkada Ravindranath**  
-Assistant Professor,
-
-Aerospace and Mechanical Engineering Department
-
-Saint Louis University
 
 [Email Me](mailto:pruthul.kokkada@slu.edu)
