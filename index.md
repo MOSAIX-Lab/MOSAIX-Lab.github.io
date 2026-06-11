@@ -28,3 +28,7 @@ feature_row:
     excerpt: "Finite Element Modeling"
   
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
