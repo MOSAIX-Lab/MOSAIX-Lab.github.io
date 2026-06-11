@@ -9,7 +9,7 @@ header:
 excerpt: Small Scales. Big Impact...
 intro: 
   - excerpt: 'The MOSAIX Lab advances the design and understanding of next-generation materials through the integration of computational modeling, multiscale simulations, and experimental characterization. Research in the lab focuses on uncovering the fundamental mechanisms that govern the behavior of composite, multifunctional, and advanced structural materials across length and time scales—from atoms and molecules to engineering structures.'
-`type="center"`
+
 feature_row:
   - image_path: assets/images/PMR-15.png
     alt: "placeholder image 1"
