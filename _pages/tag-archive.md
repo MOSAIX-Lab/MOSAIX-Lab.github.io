@@ -55,3 +55,15 @@ Interested in gaining hands-on experience with composite manufacturing, mechanic
 Stop by the office, send an email, or start a conversation. Undergraduate researchers are always welcome to learn, contribute, and grow as part of the MOSAIX Lab team.
 
 Build. Simulate. Discover. Innovate. Join MOSAIX Lab and help shape the next generation of advanced materials.
+
+
+## Contact
+
+Interested students are encouraged to contact:
+
+**Dr. Pruthul Kokkada Ravindranath**  
+Assistant Professor,
+Aerospace and Mechanical Engineering Department
+Saint Louis University
+
+[Email Me](mailto:pruthul.kokkada@slu.edu)
