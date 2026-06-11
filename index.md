@@ -35,6 +35,14 @@ feature_row:
     alt: "Finite Element Modeling"
     excerpt: "Finite Element Modeling"
 
+  - image_path: /assets/images/Lopez.jpg
+    alt: "Friction Stir Welding"
+    excerpt: "Friction Stir Welding"
+
+  - image_path: /assets/images/UTM.png
+    alt: "Tensile Testing with DIC"
+    excerpt: "Tensile Testing with DIC"
+
 #gallery:
  # - image_path: /assets/images/PMR-15.jpg
     alt: "Atomic Scale Modeling"
