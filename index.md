@@ -49,3 +49,13 @@ gallery:
     alt: "Finite Element Modeling"
 
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row id="intro2" type="center" %}
+
+{% include feature_row id="announcement" type="center" %}
+
+{% include feature_row %}
+
+{% include gallery caption="Research Areas" %}
