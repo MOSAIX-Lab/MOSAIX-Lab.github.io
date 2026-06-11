@@ -5,7 +5,7 @@ layout: splash
 header:
   #overlay_color: "#000"
   #overlay_filter: "0.1"
-  image: /assets/images/SLULogo.png
+  image: /assets/images/SLU-MOSAIXLogo.png
 #excerpt: Small Scales. Big Impact...
 intro: 
   - title: 'Welcome to MOSAIX Lab at Saint Louis University'
