@@ -31,7 +31,7 @@ feature_row:
     image_path: /assets/images/CT-Damage.png
     alt: "placeholder image 3"
     excerpt: "Non-destructive Evaluation"
-   - image_path: /assets/images/FEM.png
+  - image_path: /assets/images/FEM.png
     #title: "Finite Element Modeling"
     excerpt: "Finite Element Modeling"
 
