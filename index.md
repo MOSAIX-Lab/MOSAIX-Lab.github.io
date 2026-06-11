@@ -5,6 +5,7 @@ permalink: /
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/SLULogo.png
-  excerpt: Small Scales. Big Impact...
+  overlay_image: /assets/images/SLULogo.png `type="right"`'
+excerpt: Small Scales. Big Impact...
+  
 ---
