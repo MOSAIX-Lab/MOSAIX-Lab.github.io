@@ -13,6 +13,7 @@ feature_row:
   - image_path: assets/images/PMR-15.png
     alt: "placeholder image 1"
     title: "Atomic-scale Modeling"
+    #excerpt: "____"
   - image_path: /assets/images/Epon-862.png
     #image_caption: "Molecular Dynamics Simulations"
     alt: "placeholder image 2"
