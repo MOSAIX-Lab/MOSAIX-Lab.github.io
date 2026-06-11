@@ -3,9 +3,9 @@ layout: splash
 title: "Welcome to MOSAIX Lab at Saint Louis University"
 permalink: /
 header:
-  overlay_color: 0.5, rgba(255, 0, 0, 0.5)
-  overlay_image: /assets/images/splash-image.jpg
-  actions:
+feature_row:
+- image_path: /assets/images/SLULogo.png
+  type: right
     - label: "Learn More"
       url: "/about/"
   #caption: "Image credit: Name"
