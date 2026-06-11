@@ -3,7 +3,7 @@ layout: splash
 title: "Welcome to MOSAIX Lab at Saint Louis University"
 permalink: /
 header:
-  overlay_color: "#000"
+  overlay_color: "$\$3777e6$"
   overlay_image: /assets/images/splash-image.jpg
   actions:
     - label: "Learn More"
