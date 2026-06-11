@@ -14,7 +14,6 @@ feature_row:
   - image_path: assets/images/PMR-15.png
     alt: "placeholder image 1"
     title: "Atomic-scale Modeling"
-    
   - image_path: /assets/images/Epon-862.png
     #image_caption: "Molecular Dynamics Simulations"
     alt: "placeholder image 2"
@@ -23,12 +22,10 @@ feature_row:
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
-    
   - image_path: /assets/images/FEM.png
     alt: "placeholder image 3"
     title: "Finite Element Modeling"
     #excerpt: "Finite Element Modeling"
-
   - image_path: assets/images/CT-Damage.png
     alt: "placeholder image 4"
     title: "Non-Destructive Evaluation"
