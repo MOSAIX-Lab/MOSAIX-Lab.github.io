@@ -12,23 +12,19 @@ intro:
 feature_row:
   - image_path: assets/images/PMR-15.png
     alt: "placeholder image 1"
-    title: "Atomic-scale Modeling"
-    #excerpt: "____"
+    title: "Atomic Scale Modeling"
+    #excerpt: "This is some sample content that goes here with **Markdown** formatting."
   - image_path: /assets/images/Epon-862.png
-    #image_caption: "Molecular Dynamics Simulations"
+    #image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 2"
-    title: "Molecular Dynamics Simulations-2""
-    #excerpt: "____"
+    title: "Molecular Dynamics Simularions"
+    #excerpt: "This is some sample content that goes here with **Markdown** formatting."
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
   - image_path: /assets/images/FEM.png
-    alt: "placeholder image 3"
     title: "Finite Element Modeling"
-    #excerpt: "Finite Element Modeling"
-  - image_path: assets/images/CT-Damage.png
-    alt: "placeholder image 4"
-    title: "Non-Destructive Evaluation"
+    #excerpt: "This is some sample content that goes here with **Markdown** formatting."
   
 ---
 
