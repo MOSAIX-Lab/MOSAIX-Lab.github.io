@@ -14,6 +14,12 @@ intro:
 intro2:
   - excerpt: 'The MOSAIX (Multiscale mOdeling, Simulation & Integrated eXperimentation) Lab advances the design and understanding of next-generation materials through the integration of computational modeling, multiscale simulations, and experimental characterization. Research in the lab focuses on uncovering the fundamental mechanisms that govern the behavior of composite, multifunctional, and advanced structural materials across length and time scales—from atoms and molecules to engineering structures.'
 
+
+title: "ANNOUNCEMENT"
+permalink: /members/
+
+
+
 feature_row:
   - image_path: assets/images/PMR-15.jpg
     alt: "placeholder image 1"
@@ -60,6 +66,6 @@ feature_row:
 
 {% include feature_row id="intro2" type="center" %}
 
-#{% include gallery caption="Past Projects" %}
+{% include gallery caption="Past Projects" %}
 
 {% include feature_row %}
