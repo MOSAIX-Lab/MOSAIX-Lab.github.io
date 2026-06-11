@@ -35,17 +35,17 @@ feature_row:
     alt: "Finite Element Modeling"
     excerpt: "Finite Element Modeling"
 
-gallery:
-  - image_path: /assets/images/PMR-15.jpg
+#gallery:
+ # - image_path: /assets/images/PMR-15.jpg
     alt: "Atomic Scale Modeling"
 
-  - image_path: /assets/images/Epon-862.jpg
+ # - image_path: /assets/images/Epon-862.jpg
     alt: "Molecular Dynamics Simulations"
 
-  - image_path: /assets/images/CT-Damage.png
+ # - image_path: /assets/images/CT-Damage.png
     alt: "Non-destructive Evaluation"
 
-  - image_path: /assets/images/FEM.png
+ # - image_path: /assets/images/FEM.png
     alt: "Finite Element Modeling"
 
 ---
