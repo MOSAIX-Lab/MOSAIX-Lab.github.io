@@ -4,9 +4,9 @@ permalink: /members/
 layout: single
 author_profile: true
 author:
-  name   : "Pruthul Kokkada Ravindranath"
+  name   : "Pruthul Kokkada Ravindranath, PhD"
   avatar : "/assets/images/ProfilePic.jpg"
-  bio    : "Dr. Pruthul Kokkada Ravindranath is an Assistant Professor in the Aerospace and Mechanical Engineering Department at Saint Louis University."
+  bio    : " is an Assistant Professor in the Aerospace and Mechanical Engineering Department at Saint Louis University."
   links:
     - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
@@ -63,7 +63,9 @@ Interested students are encouraged to contact:
 
 **Dr. Pruthul Kokkada Ravindranath**  
 Assistant Professor,
+
 Aerospace and Mechanical Engineering Department
+
 Saint Louis University
 
 [Email Me](mailto:pruthul.kokkada@slu.edu)
