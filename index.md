@@ -26,9 +26,9 @@ feature_row:
     alt: "placeholder image 3"
     title: "Finite Element Modeling"
     #excerpt: "Finite Element Modeling"
-  - image_path: assets/images/CT-Damage.png
-    alt: "placeholder image 4"
-    title: "Non-Destructive Evaluation"
+  #- image_path: assets/images/CT-Damage.png
+   #alt: "placeholder image 4"
+    #title: "Non-Destructive Evaluation"
   
 ---
 
