@@ -17,15 +17,41 @@ author:
 
 ---
 
-** ANNOUCEMENT **
+# ANNOUCEMENT 
 
-Looking for highly motivated graduate students (Master's and PhD) in the field of carbon fiber reinforced composite materials. Preference will be given to students with past experience in either of the two areas:
+## 🚀 Join the MOSAIX Lab at Saint Louis University!
 
-* Manufactruing and mechanical testing of composite materials: Must have experience in manufacturing techniques like VARTM, wet-layup, compression molding. And testing experiences in compliance with ASTM standards
+The MOSAIX Lab (Multiscale mOdeling, Simulation & Integrated eXperimentation) is seeking highly motivated Master's and PhD students interested in advancing the science and engineering of carbon fiber reinforced composite materials.
 
-* Computational Simulations: Knowledge and/or Experience in computational simulation tools like Molecular Dynamics (hihgly preferred) is sought in future PhD students and microscale simulation tools like ABAQUS or ANSYS is sought in Master's students.
+Students with experience in one or more of the following areas are especially encouraged to apply:
 
-* No experience? No problem! As long as you have the passion and interest to learn new tools and techniques, you have already taken the first step. Please feel free to contact Pruthul Kokkada and we will talk more!
+## 🔬 Composite Manufacturing & Experimental Characterization
+
+Experience with composite manufacturing and testing techniques such as:
+Vacuum Assisted Resin Transfer Molding (VARTM)
+Wet layup manufacturing
+Compression molding
+Mechanical testing and characterization following ASTM standards
 
 
-Undergraduate Students: Want to learn new manufacturing and testing techniques of Carbon fiber reinforced polymer composite materials, please feel free to stop by my office!
+## 💻 Computational Modeling & Simulation
+
+Experience or strong interest in computational tools, including:
+Molecular Dynamics simulations (particularly desirable for prospective PhD students)
+Finite Element Analysis using ABAQUS, ANSYS, or similar platforms
+Multiscale modeling of advanced materials and structures
+
+
+## 🌟 No Experience? That's Okay!
+
+Curiosity, motivation, and a willingness to learn are often more important than prior experience. If you are excited about advanced materials, computational modeling, experimental research, or simply want to explore new opportunities, we would love to hear from you.
+
+Please feel free to reach out to Dr. Pruthul Kokkada Ravindranath to discuss potential research opportunities and how your interests align with the lab's research vision.
+
+
+## 🎓 Undergraduate Students Welcome!
+
+Interested in gaining hands-on experience with composite manufacturing, mechanical testing, and advanced materials research?
+Stop by the office, send an email, or start a conversation. Undergraduate researchers are always welcome to learn, contribute, and grow as part of the MOSAIX Lab team.
+
+Build. Simulate. Discover. Innovate. Join MOSAIX Lab and help shape the next generation of advanced materials.
