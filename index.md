@@ -2,7 +2,7 @@
 layout: splash
 
 header:
-  image: /assets/images/SLU-MOSAIXLogo-3.png
+  image: /assets/images/SLU-MOSAIXLogo-5.jpg
 
 intro:
   - title: "Welcome to MOSAIX Lab at Saint Louis University"
