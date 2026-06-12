@@ -5,11 +5,11 @@ header:
   image: /assets/images/SLU-MOSAIXLogo-5.jpg
 
 intro:
-  - title: "Welcome to MOSAIX Lab at Saint Louis University"
+  - title: "Welcome to MOSAIX Lab"
     excerpt: "Small Scales. Big Impact..."
 
 intro2:
-  - excerpt: "The MOSAIX (Multiscale mOdeling, Simulation & Integrated eXperimentation) Lab advances the design and understanding of next-generation materials through the integration of computational modeling, multiscale simulations, and experimental characterization. Research in the lab focuses on uncovering the fundamental mechanisms that govern the behavior of composite, multifunctional, and advanced structural materials across length and time scales—from atoms and molecules to engineering structures."
+  - excerpt: "We are the MOSAIX (Multiscale mOdeling, Simulation & Integrated eXperimentation) Lab in the Aerospace and Mechanical Engineering Department at Saint Louis University, St. Louis, MO. we at MOSAIX are working towards the advances in the design and understanding of next-generation materials through the integration of computational modeling, multiscale simulations, and experimental characterization. Research in our lab focuses on uncovering the fundamental mechanisms that govern the behavior of composite, multifunctional, and advanced structural materials across length and time scales—from atoms and molecules to engineering structures."
 
 announcement:
   - title: "🎓 Graduate Student Opportunities"
