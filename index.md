@@ -9,11 +9,11 @@ intro:
     excerpt: "Small Scales. Big Impact..."
 
 intro2:
-  - excerpt: "We are the MOSAIX (Multiscale mOdeling, Simulation & Integrated eXperimentation) Lab in the Aerospace and Mechanical Engineering Department at Saint Louis University, St. Louis, MO. we at MOSAIX are working towards the advances in the design and understanding of next-generation materials through the integration of computational modeling, multiscale simulations, and experimental characterization. Research in our lab focuses on uncovering the fundamental mechanisms that govern the behavior of composite, multifunctional, and advanced structural materials across length and time scales—from atoms and molecules to engineering structures."
+  - excerpt: "We are the MOSAIX (Multiscale mOdeling, Simulation & Integrated eXperimentation) Lab in the Aerospace and Mechanical Engineering Department at Saint Louis University, St. Louis, MO. We at MOSAIX are working towards the advances in the design and understanding of next-generation materials through the integration of computational modeling, multiscale simulations, and experimental characterization. Research in our lab focuses on uncovering the fundamental mechanisms that govern the behavior of composite, multifunctional, and advanced structural materials across length and time scales—from atoms and molecules to engineering structures."
 
 announcement:
-  - title: "🎓 Graduate Student Opportunities"
-    excerpt: "The MOSAIX Lab is actively recruiting highly motivated Master's and PhD students interested in composite materials, molecular dynamics, multiscale simulations, advanced manufacturing, and experimental characterization. Prior experience is welcome but not required—curiosity, passion, and a willingness to learn are highly valued."
+  - title: "🎓 Student Opportunities"
+    excerpt: "The MOSAIX Lab is actively recruiting highly motivated undergraduate, Master's and PhD students interested in composite materials, molecular dynamics, multiscale simulations, advanced manufacturing, and experimental characterization. Prior experience is welcome but not required—curiosity, passion, and a willingness to learn are highly valued."
     url: "/members/"
     btn_label: "View Opportunities"
     btn_class: "btn--primary"
@@ -40,8 +40,8 @@ feature_row:
     excerpt: "Friction Stir Welding"
 
   - image_path: /assets/images/UTM.png
-    alt: "Tensile Testing with DIC"
-    excerpt: "Tensile Testing with DIC"
+    alt: "Manufacturing and Testing"
+    excerpt: "Manufacturing and Testing"
 
 #gallery:
  # - image_path: /assets/images/PMR-15.jpg
