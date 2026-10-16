@@ -1,4 +1,4 @@
-# How to update the MOSAIX Lab website
+# How to update the MOSAIX Lab website 
 
 The site is built with Jekyll and the Minimal Mistakes theme, and GitHub Pages
 publishes it automatically. **You never build it by hand:** every time you
