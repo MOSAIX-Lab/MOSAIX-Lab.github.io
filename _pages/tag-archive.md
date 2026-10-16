@@ -17,12 +17,12 @@ author:
 
 ---
 
-# ANNOUCEMENT 
+# ANNOUNCEMENT 
 
 
 ### 🚀 Join the MOSAIX Lab at Saint Louis University!
 
-The MOSAIX Lab (Multiscale mOdeling, Simulation & Integrated eXperimentation) is seeking highly motivated undergradduate, Master's and PhD students interested in advancing the science and engineering of fiber reinforced composite materials.
+The MOSAIX Lab (Multiscale mOdeling, Simulation & Integrated eXperimentation) is seeking highly motivated undergraduate, Master's and PhD students interested in advancing the science and engineering of fiber reinforced composite materials.
 
 Students with experience in one or more of the following areas are especially encouraged to apply:
 

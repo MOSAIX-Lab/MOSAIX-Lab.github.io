@@ -6,7 +6,8 @@ author_profile: true
 ---
 Journal Papers
 
-- H. Tewani, V. Scheerer, M. Owens, E. Cumbajin, C. D. Leon, MD R. Hussain, P. Kokkada Ravindranath, R. Van Lear, D. Jack, D. Wallace, P. Prabhakar, “Arχi-Textile Composites: Drapable Hybrid Woven Composites for Lightning Strike Protection”, Composites Part B: Engineering, March 12, 2026, 113549. https://doi.org./10.1016/j.compositesb.2026.113549
+- Newton, M., Van Lear, R., Kokkada Ravindranath, P., Jack, D., Gravagne, I., “Data fusion approach to layup characterisation of CFRP laminates using ECT, UT, and CT”, Nondestructive Testing and Evaluation, 2026. https://doi.org/10.1080/10589759.2026.2703271
+- H. Tewani, V. Scheerer, M. Owens, E. Cumbajin, C. D. Leon, MD R. Hussain, P. Kokkada Ravindranath, R. Van Lear, D. Jack, D. Wallace, P. Prabhakar, “Arχi-Textile Composites: Drapable Hybrid Woven Composites for Lightning Strike Protection”, Composites Part B: Engineering, March 12, 2026, 113549. https://doi.org/10.1016/j.compositesb.2026.113549
 - Baker, C.R., Zhu, N., Ravindranath, P.K. et al. Sustainable in-space manufacturing by upcycling metal space debris via a vertically integrated processing paradigm. npj Adv. Manuf. 2, 29 (2025). https://doi.org/10.1038/s44334-025-00042-z
 - Batson, M., Eisenmann, D., Ravindranath, P.K. et al., “Development of a Generalized Fatigue Assessment Approach for Steel Castings”, J Fail. Anal. and Preven. 25, 699-724 (2025). https://doi.org/10.1007/s11668-025-02137-3
 - Kokkada Ravindranath, P, Pulipati, DP, Emerson, N, Jack, DA, “A Comprehensive study of ultrasonic detection and damage quantification of barely visible impact damages in a carbon fiber reinforced composite materials”. Polym Compos. 2024; 1-14. Doi: 10.1002/pc.29318
