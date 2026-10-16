@@ -17,7 +17,8 @@ went live; a red X means the change has an error and the old version stays up.
 | Teaching | `_pages/teaching.md` | `/teaching/` |
 | Publications | `_pages/category-archive.md` | `/publications/` |
 | Members | `_pages/tag-archive.md` | `/members/` |
-| Projects | *(not created yet; shows the "under construction" page)* | `/projects/` |
+| Projects | `_pages/projects.md` | `/projects/` |
+| Join Us | `_pages/join.md` | `/join/` |
 | Top menu | `_data/navigation.yml` | — |
 | Pictures | `assets/images/` | — |
 
@@ -43,19 +44,21 @@ change the title or address. It's sensitive to indentation and quote marks.
   heading followed by its description.
 - **Add an image:** upload it into `assets/images/` (Add file → Upload files),
   then reference it with `![description](/assets/images/filename.jpg)`.
-- **Add a new page (e.g. Projects):** create `_pages/projects.md` that starts with
+- **Add a new page:** create a file in `_pages/` (for example `_pages/news.md`) that starts with
 
   ```
   ---
-  title: "Projects"
-  permalink: /projects/
+  title: "News"
+  permalink: /news/
   layout: single
   author_profile: true
   ---
   ```
 
-  The menu already links to `/projects/`, so it starts working as soon as the
-  file exists.
+  Then add it to the top menu (see "Add a menu item" below).
+- **Add a student to Members:** in `_pages/tag-archive.md`, copy the example
+  block in the `<!-- -->` comment under *Students*, paste it outside the comment
+  and fill it in.
 - **Add a menu item:** add a `- title:` / `url:` pair to `_data/navigation.yml`.
 
 Don't put pages in the `_data` folder. Jekyll only reads settings files from it

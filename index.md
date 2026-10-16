@@ -14,8 +14,8 @@ intro2:
 announcement:
   - title: "🎓 Student Opportunities"
     excerpt: "The MOSAIX Lab is actively recruiting highly motivated undergraduate, Master's and PhD students interested in composite materials, molecular dynamics, multiscale simulations, advanced manufacturing, and experimental characterization. Prior experience is welcome but not required—curiosity, passion, and a willingness to learn are highly valued."
-    url: "/members/"
-    btn_label: "View Opportunities"
+    url: "/join/"
+    btn_label: "Join the Lab"
     btn_class: "btn--primary"
 
 feature_row:
