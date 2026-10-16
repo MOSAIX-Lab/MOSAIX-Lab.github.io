@@ -45,16 +45,16 @@ feature_row:
 
 #gallery:
  # - image_path: /assets/images/PMR-15.jpg
-    alt: "Atomic Scale Modeling"
+ #   alt: "Atomic Scale Modeling"
 
  # - image_path: /assets/images/Epon-862.jpg
-    alt: "Molecular Dynamics Simulations"
+ #   alt: "Molecular Dynamics Simulations"
 
  # - image_path: /assets/images/CT-Damage.png
-    alt: "Non-destructive Evaluation"
+ #   alt: "Non-destructive Evaluation"
 
  # - image_path: /assets/images/FEM.png
-    alt: "Finite Element Modeling"
+ #   alt: "Finite Element Modeling"
 
 ---
 
