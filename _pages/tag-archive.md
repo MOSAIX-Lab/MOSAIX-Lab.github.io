@@ -17,49 +17,30 @@ author:
 
 ---
 
-# ANNOUNCEMENT 
+## Principal Investigator
 
+<img src="/assets/images/ProfilePic.jpg" alt="Dr. Pruthul Kokkada Ravindranath" style="width:160px; border-radius:50%; float:right; margin:0 0 1em 1.5em;">
 
-### 🚀 Join the MOSAIX Lab at Saint Louis University!
+**Dr. Pruthul Kokkada Ravindranath** is an Assistant Professor in the Aerospace and Mechanical Engineering Department at Saint Louis University, where he leads the MOSAIX Lab. His research combines molecular dynamics, computational mechanics and experimental validation, including ultrasonic and X-ray CT inspection, to design multifunctional composite and nanostructured materials. He also works in additive manufacturing and materials for extreme environments. His work has led to U.S. patents and FAA-certified technologies.
 
-The MOSAIX Lab (Multiscale mOdeling, Simulation & Integrated eXperimentation) is seeking highly motivated undergraduate, Master's and PhD students interested in advancing the science and engineering of fiber reinforced composite materials.
+Before joining SLU, he was a Research Scientist in Mechanical Engineering at Baylor University. He holds a Ph.D. and M.S. in Aerospace Engineering and Mechanics from the University of Alabama, an M.S. in Mechanical Engineering and Engineering Mechanics from Michigan Technological University, and a B.E. in Mechanical Engineering from Visvesvaraya Technological University.
 
-Students with experience in one or more of the following areas are especially encouraged to apply:
+📧 [pruthul.kokkada@slu.edu](mailto:pruthul.kokkada@slu.edu)
+<div style="clear:both;"></div>
 
-### 🔬 Composite Manufacturing & Experimental Characterization
+## Students
 
-Experience with fiber reinforced composite manufacturing and testing techniques such as:
-* Vacuum Assisted Resin Transfer Molding (VARTM)
-* Wet layup manufacturing
-* Compression molding
-* Mechanical testing and characterization following ASTM standards
+**MOSAIX is a new and growing lab, and this spot is waiting for you.**
+{: .notice--info}
 
+<!--
+  When students join, add each one like this (photo goes in assets/images/):
 
-### 💻 Computational Modeling & Simulation
+### Student Name
+*PhD Student* · Project: one-line description of their project
+<img src="/assets/images/student-name.jpg" alt="Student Name" style="width:120px; border-radius:50%;">
+-->
 
-Experience or strong interest in computational tools, including:
-Molecular Dynamics simulations (particularly desirable for prospective PhD students), Finite Element Analysis using ABAQUS, ANSYS, or similar platforms for multiscale modeling of advanced composite materials and structures
+We're recruiting undergraduate, Master's and PhD students. No prior experience is required.
 
-
-### 🌟 No Experience? That's Okay!
-
-Curiosity, motivation, and a willingness to learn are often more important than prior experience. If you are excited about advanced materials, computational modeling, experimental research, or simply want to explore new opportunities, we would love to hear from you.
-
-Please feel free to reach out to Dr. Pruthul Kokkada Ravindranath to discuss potential research opportunities and how your interests align with the lab's research vision.
-
-
-### 🎓 Undergraduate Students Welcome!
-
-Interested in gaining hands-on experience with composite manufacturing, mechanical testing, and advanced materials research?
-Stop by the office, send an email, or start a conversation. Undergraduate researchers are always welcome to learn, contribute, and grow as part of the MOSAIX Lab team.
-
-Build. Simulate. Discover. Innovate. Join MOSAIX Lab and help shape the next generation of advanced materials.
-
-
-### Contact
-
-Interested students are encouraged to contact:
-
-**Dr. Pruthul Kokkada Ravindranath**  
-
-[Email Me](mailto:pruthul.kokkada@slu.edu)
+[Join the Lab](/join/){: .btn .btn--primary .btn--large}
