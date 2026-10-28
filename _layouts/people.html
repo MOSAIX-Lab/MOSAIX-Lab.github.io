@@ -1,0 +1,45 @@
+---
+layout: default
+---
+{%- assign d = site.data.people.director -%}
+{%- assign students = site.data.people.students -%}
+{% include page-intro.html %}
+<section class="shell" aria-labelledby="director-heading">
+  <div class="section-mini-heading"><h2 id="director-heading">Principal investigator</h2><span class="micro">MOSAIX Lab</span></div>
+  <article class="director-card">
+    <div class="director-photo"><img src="{{ d.photo | relative_url }}" alt="{{ d.name }}"></div>
+    <div class="director-bio">
+      <p class="eyebrow">Lab director</p>
+      <h3>{{ d.name }}</h3>
+      <p class="person-role">{{ d.role }}</p>
+      <p>{{ d.bio }}</p>
+      <p>{{ d.background }}</p>
+      <div class="profile-links">{% for link in d.links %}<a class="text-link" href="{{ link.url }}">{{ link.label }} <span aria-hidden="true">↗</span></a>{% endfor %}</div>
+    </div>
+  </article>
+</section>
+<section class="ra-section shell" aria-labelledby="students-heading">
+  <div class="section-mini-heading"><h2 id="students-heading">Students</h2><span class="micro">Our research community</span></div>
+  {%- if students and students.size > 0 %}
+  <div class="member-grid">
+    {%- for s in students %}
+    <article class="ra-card">
+      <div class="ra-avatar">{% if s.photo %}<img src="{{ s.photo | relative_url }}" alt="{{ s.name }}">{% else %}{% assign parts = s.name | split: " " %}<span aria-hidden="true">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</span>{% endif %}</div>
+      <div class="ra-card-body"><h3>{{ s.name }}</h3><p class="person-role">{{ s.role }}</p>{% if s.project %}<p class="project">{{ s.project }}</p>{% endif %}</div>
+    </article>
+    {%- endfor %}
+    <article class="ra-card placeholder"><div class="ra-avatar"><span aria-hidden="true">+</span><span class="avatar-note">This could be you</span></div><div class="ra-card-body"><h3>Join us</h3><p class="person-role"><a class="text-link" href="{{ '/join/' | relative_url }}">See open positions ↗</a></p></div></article>
+  </div>
+  {%- else %}
+  <div class="ra-layout">
+    <article class="ra-card placeholder"><div class="ra-avatar"><span aria-hidden="true">You?</span><span class="avatar-note">Your photo here</span></div><div class="ra-card-body"><h3>Your name</h3><p class="person-role">Undergraduate, Master's or Ph.D. student<br>Saint Louis University</p><p class="project">Your project: atoms, laminates, or anything in between.</p></div></article>
+    <div class="ra-editorial">
+      <span class="decorative-star" aria-hidden="true">✦</span>
+      <h3>MOSAIX is new,<br>and <em>this spot is open.</em></h3>
+      <p>Our first students will help shape the lab: its projects, its tools and its culture. No prior research experience is required.</p>
+      <a class="button" href="{{ '/join/' | relative_url }}">See open positions <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  {%- endif %}
+</section>
+<section class="people-contact shell"><p>Interested in working with us?</p><a class="text-link" href="mailto:{{ site.email }}">Start a conversation <span aria-hidden="true">↗</span></a></section>

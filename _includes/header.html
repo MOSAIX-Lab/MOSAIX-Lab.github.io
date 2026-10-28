@@ -1,0 +1,14 @@
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header shell">
+  {% include brand.html %}
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">☰</span></button>
+  <nav id="main-nav" aria-label="Main navigation">
+    {%- for item in site.data.navigation.main %}
+    <a href="{{ item.url | relative_url }}"{% if page.url == item.url or page.nav == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+    {%- endfor %}
+    {%- assign cta = site.data.navigation.cta %}
+    {%- if cta %}
+    <a class="nav-cta" href="{{ cta.url | relative_url }}"{% if page.url == cta.url %} aria-current="page"{% endif %}>{{ cta.title }} <span aria-hidden="true">↗</span></a>
+    {%- endif %}
+  </nav>
+</header>

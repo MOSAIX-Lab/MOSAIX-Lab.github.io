@@ -1,0 +1,61 @@
+# Research themes. These appear as numbered rows on the home page and as full
+# sections on the Research page, in this order.
+#   id       short name used in links (lowercase, no spaces)
+#   title    headline
+#   short    one-line question shown on the home page
+#   lead     the big question shown on the Research page
+#   body     a paragraph on how we tackle it
+#   role     what a student would do
+#   image    picture in assets/images/
+
+themes:
+  - id: nanoscale
+    tag: "Atomic & molecular scale"
+    title: "Designing composites, atom by atom"
+    short: "How do nanoscale additives make polymers stronger, tougher and more conductive?"
+    lead: "How do tiny additives like carbon nanotubes and graphene change a polymer, and how do we find the best recipe without endless trial and error?"
+    body: "We use molecular dynamics simulations to capture what happens at the interface between an additive and the polymer around it, including interfacial mechanics, dispersion and volume fraction, and connect those atomic-scale details to the bulk properties engineers design with."
+    role: "Build molecular models, run simulations on SLU's high-performance computing cluster, and analyze how structure controls properties."
+    image: /assets/images/Epon-862.jpg
+    image_alt: "Molecular dynamics model of an epoxy under shear"
+
+  - id: damage
+    tag: "Non-destructive evaluation"
+    title: "Seeing hidden damage"
+    short: "How do we find and measure damage inside a part that looks perfectly fine?"
+    lead: "An impact can leave a carbon-fiber part looking untouched on the outside while it is cracked inside. How do we find, and measure, damage we can't see?"
+    body: "We use ultrasonic testing, including phased-array scanning, and X-ray computed tomography, with automated and AI-assisted analysis that turns scans into numbers engineers can trust, and links them to how much strength the part has left."
+    role: "Make and impact composite panels, scan them, and write analysis code that quantifies the damage."
+    image: /assets/images/CT-Damage.png
+    image_alt: "X-ray CT scan showing impact delamination inside a carbon-fiber laminate"
+
+  - id: structures
+    tag: "Experimental & computational mechanics"
+    title: "Testing and modeling composite structures"
+    short: "How do composite parts deform and fail, and can we predict it before it happens?"
+    lead: "How do composite structures deform and fail under real loads, and can we predict failure before it happens?"
+    body: "We test to ASTM standards on our 100 kN universal test frame, using 3D digital image correlation to map strain across the whole specimen, and pair every test with finite element models in tools like ABAQUS and ANSYS."
+    role: "Make and test specimens, capture full-field strain data, and build models that match what you see in the lab."
+    image: /assets/images/FEM.png
+    image_alt: "Finite element mesh of an open-hole composite coupon"
+
+  - id: manufacturing
+    tag: "Advanced manufacturing"
+    title: "Advanced and in-space manufacturing"
+    short: "Can we build strong metal parts layer by layer, even from lunar soil or space debris?"
+    lead: "Can we build strong metal parts layer by layer without melting them, even from lunar regolith or recycled space debris?"
+    body: "We study solid-state friction stir additive manufacturing, then use mechanical testing and non-destructive inspection to understand how processing controls the properties of what we build."
+    role: "Help process and characterize printed metal and metal-matrix composite parts."
+    image: /assets/images/Lopez.jpg
+    image_alt: "X-ray CT of an additively manufactured part showing internal porosity"
+
+# Equipment listed on the Research page.
+facilities:
+  - name: "Shimadzu AGX-V2 universal test frame"
+    detail: "100 kN floor-standing frame for tension, compression and flexure testing to ASTM standards."
+  - name: "MatchID 3D digital image correlation"
+    detail: "Stereo cameras that map displacement and strain across the full surface of a specimen."
+  - name: "High-memory simulation workstation"
+    detail: "256 GB RAM workstation for molecular modeling, finite element analysis and data processing."
+  - name: "Libra high-performance computing cluster"
+    detail: "SLU's research cluster, used for large-scale molecular dynamics simulations."

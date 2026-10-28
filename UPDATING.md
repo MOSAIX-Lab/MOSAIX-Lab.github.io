@@ -1,65 +1,83 @@
-# How to update the MOSAIX Lab website 
+# How to update the MOSAIX Lab website
 
-The site is built with Jekyll and the Minimal Mistakes theme, and GitHub Pages
-publishes it automatically. **You never build it by hand:** every time you
-commit a change to the `master` branch on github.com, the live site at
+The site is built with Jekyll, using the lab's own design (no outside theme).
+GitHub Pages publishes it automatically: **you never build it by hand.** Every
+time you commit a change to the `master` branch on github.com, the live site at
 https://mosaix-lab.github.io updates within 1–2 minutes.
 
 To check a build, open the repo's **Actions** tab. A green check means the site
 went live; a red X means the change has an error and the old version stays up.
 
-## Which file is which page
+## Where everything lives
 
-| Page on the site | File to edit | Web address |
-|---|---|---|
-| Home | `index.md` | `/` |
-| About | `_pages/about.md` | `/about/` |
-| Teaching | `_pages/teaching.md` | `/teaching/` |
-| Publications | `_pages/category-archive.md` | `/publications/` |
-| Members | `_pages/tag-archive.md` | `/members/` |
-| Projects | `_pages/projects.md` | `/projects/` |
-| Join Us | `_pages/join.md` | `/join/` |
-| Top menu | `_data/navigation.yml` | — |
-| Pictures | `assets/images/` | — |
+| What you want to change | File to edit |
+|---|---|
+| Home page text (headline, intro, recruiting band) | `index.md` |
+| "Zoom across scales" panel on the home page | `_data/scales.yml` |
+| Research themes (home page rows and Research page) | `_data/research.yml` (`themes:`) |
+| Lab equipment list | `_data/research.yml` (`facilities:`) |
+| Research page intro and "Our approach" section | `_pages/projects.md` |
+| Your bio, photo and links; adding students | `_data/people.yml` |
+| Join Us page (reasons, openings, how to apply) | `_pages/join.md` |
+| Publications | `_pages/publications.md` |
+| Teaching | `_pages/teaching.md` |
+| Top menu | `_data/navigation.yml` |
+| Colors and fonts | `assets/css/mosaix.css` (the `:root` block at the top) |
+| Pictures | `assets/images/` |
 
-Note that Publications and Members live in files that kept the theme's original
-names (`category-archive.md`, `tag-archive.md`). The **web address** comes from
-the `permalink:` line at the top of each file, not from the file name.
+Files ending in `.yml` are lists of settings. Keep the indentation (spaces, not
+tabs) and the quote marks exactly as they are, and copy an existing entry when
+adding a new one.
 
-## Editing a page
+Words wrapped in `<em>` … `</em>` in a headline appear in green italics, and
+`<br>` starts a new line.
+
+## Editing a file
 
 1. On github.com, open the file and click the pencil icon.
-2. Edit the text below the second `---` line. That part is ordinary Markdown:
-   `## Heading`, `- bullet`, `**bold**`, `[link text](https://...)`.
+2. Make your change.
 3. Click **Commit changes**.
-
-Leave the block between the two `---` lines at the top alone unless you mean to
-change the title or address. It's sensitive to indentation and quote marks.
 
 ## Common tasks
 
-- **Add a publication:** in `_pages/category-archive.md`, add a new `- ` line at
-  the top of the *Journal Papers* or *Conference Papers* list.
-- **Add a course:** in `_pages/teaching.md`, add another `## Course Name (CODE)`
+- **Add a publication:** in `_pages/publications.md`, add a new line starting
+  with `1. ` at the top of the *Journal papers* or *Conference papers* list.
+  Every line starts with `1.` and the site numbers them automatically.
+- **Add a course:** in `_pages/teaching.md`, add a `## Course name (CODE)`
   heading followed by its description.
-- **Add an image:** upload it into `assets/images/` (Add file → Upload files),
-  then reference it with `![description](/assets/images/filename.jpg)`.
-- **Add a new page:** create a file in `_pages/` (for example `_pages/news.md`) that starts with
+- **Add a student:** in `_data/people.yml`, follow the example under
+  `students:`. Replace `students: []` with `students:` and add entries below
+  it, like this:
+
+  ```
+  students:
+    - name: "Jane Doe"
+      role: "Ph.D. student"
+      project: "Molecular dynamics of nanofilled epoxies"
+      photo: /assets/images/people/jane-doe.jpg
+  ```
+
+  Upload the photo to `assets/images/people/` first. Without a photo, the
+  student's initials are shown.
+- **Update the Ph.D. opening:** edit the `badge:` line for Ph.D. in
+  `_pages/join.md`, and the `opening:` line in `index.md`. Delete both lines to
+  hide them.
+- **Add an image:** upload it into `assets/images/` (Add file → Upload files).
+- **Add a new page:** create a file in `_pages/` (for example `_pages/news.md`)
+  that starts with
 
   ```
   ---
   title: "News"
   permalink: /news/
-  layout: single
-  author_profile: true
+  eyebrow: "News"
+  heading: "Lab <em>news.</em>"
+  intro: "One sentence under the headline."
   ---
   ```
 
-  Then add it to the top menu (see "Add a menu item" below).
-- **Add a student to Members:** in `_pages/tag-archive.md`, copy the example
-  block in the `<!-- -->` comment under *Students*, paste it outside the comment
-  and fill it in.
-- **Add a menu item:** add a `- title:` / `url:` pair to `_data/navigation.yml`.
+  followed by ordinary Markdown text (`## Heading`, `- bullet`, `**bold**`,
+  `[link text](https://...)`). Then add it to `_data/navigation.yml`.
 
 Don't put pages in the `_data` folder. Jekyll only reads settings files from it
 and never turns its contents into web pages.

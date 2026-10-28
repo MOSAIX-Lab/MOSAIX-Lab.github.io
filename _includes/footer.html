@@ -1,0 +1,16 @@
+<footer class="site-footer">
+  <div class="shell footer-top">
+    {% include brand.html %}
+    <p>{{ site.tagline }}</p>
+    <a class="text-link" href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="shell footer-bottom">
+    <p>MOSAIX: {{ site.long_name }}<br>{{ site.department }}<br>{{ site.university }} · {{ site.location }}</p>
+    <div>
+      {%- for link in site.data.people.director.links %}{% unless link.label == "Email" %}
+      <a href="{{ link.url }}">{{ link.label }} <span aria-hidden="true">↗</span></a>
+      {%- endunless %}{% endfor %}
+      <span>© {{ site.time | date: "%Y" }} MOSAIX Lab</span>
+    </div>
+  </div>
+</footer>

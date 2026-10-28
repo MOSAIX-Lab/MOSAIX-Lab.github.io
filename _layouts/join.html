@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{% include page-intro.html %}
+<section class="shell section-space" style="padding-top:0" aria-labelledby="why-heading">
+  <div class="section-mini-heading"><h2 id="why-heading">Why join MOSAIX?</h2><span class="micro">What you'll get</span></div>
+  <div class="why-list">
+    {%- for w in page.why %}
+    <div class="why-row"><span class="theme-number">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span><h3>{{ w.title }}</h3><p>{{ w.text }}</p></div>
+    {%- endfor %}
+  </div>
+  <p style="margin-top:28px"><a class="text-link" href="{{ '/projects/' | relative_url }}">See what you could work on <span aria-hidden="true">↗</span></a></p>
+</section>
+<section class="shell" aria-labelledby="levels-heading" style="padding-bottom:80px">
+  <div class="section-mini-heading"><h2 id="levels-heading">Openings</h2><span class="micro">All levels welcome</span></div>
+  <div class="level-grid">
+    {%- for l in page.levels %}
+    <article class="level-card{% if l.badge %} featured{% endif %}">
+      {% if l.badge %}<span class="badge"><span class="dot"></span> {{ l.badge }}</span>{% endif %}
+      <span class="micro">{{ l.tag }}</span>
+      <h3>{{ l.title }}</h3>
+      <p>{{ l.text }}</p>
+      {% if l.points %}<ul>{% for p in l.points %}<li>{{ p }}</li>{% endfor %}</ul>{% endif %}
+    </article>
+    {%- endfor %}
+  </div>
+</section>
+<section class="shell" aria-labelledby="apply-heading">
+  <div class="section-mini-heading"><h2 id="apply-heading">How to apply</h2><span class="micro">Get in touch</span></div>
+  <div class="contact-main">
+    <div class="contact-address">
+      <p class="eyebrow"><span class="dot"></span> Email Dr. Kokkada</p>
+      <a class="contact-email" href="mailto:{{ site.email }}?subject={{ page.subject | replace: " ", "%20" }}">{{ site.email }} <span aria-hidden="true">↗</span></a>
+      <p>{{ page.look_for }}</p>
+      <a class="button" href="mailto:{{ site.email }}?subject={{ page.subject | replace: " ", "%20" }}">Write an email <span aria-hidden="true">↗</span></a>
+    </div>
+    <div>
+      <h2 style="font-size:38px">What to <em>send.</em></h2>
+      <ol class="steps">
+        {%- for s in page.steps %}<li><span>{{ s }}</span></li>{%- endfor %}
+      </ol>
+    </div>
+  </div>
+</section>

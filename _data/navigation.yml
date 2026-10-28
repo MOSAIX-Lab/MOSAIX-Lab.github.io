@@ -1,13 +1,15 @@
+# Top menu. Each item needs a title and a url (the page's permalink).
 main:
-  - title: "About"
-    url: /about/
-  - title: "Projects"
+  - title: "Research"
     url: /projects/
-  - title: "Teaching"
-    url: /teaching/
+  - title: "People"
+    url: /members/
   - title: "Publications"
     url: /publications/
-  - title: "Members"
-    url: /members/
-  - title: "Join Us"
-    url: /join/
+  - title: "Teaching"
+    url: /teaching/
+
+# The rounded button at the right end of the menu.
+cta:
+  title: "Join us"
+  url: /join/

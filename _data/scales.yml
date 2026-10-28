@@ -1,0 +1,21 @@
+# The "zoom across scales" panel on the home page, smallest to largest.
+- label: "Molecule"
+  scale: "~1 nm"
+  image: /assets/images/PMR-15.jpg
+  alt: "Atomistic model of a single PMR-15 polyimide chain"
+  caption: "A single PMR-15 polyimide chain, built atom by atom. Chemistry sets the starting point."
+- label: "Nanocomposite"
+  scale: "~10 nm"
+  image: /assets/images/Epon-862.jpg
+  alt: "Molecular dynamics simulation box of EPON 862 epoxy under shear"
+  caption: "A molecular dynamics model of EPON 862 epoxy with a nanoscale inclusion, sheared to measure its properties."
+- label: "Laminate"
+  scale: "~10 cm"
+  image: /assets/images/CT-Damage.png
+  alt: "X-ray CT of impact delamination in a carbon-fiber laminate"
+  caption: "X-ray CT reveals delamination hidden inside a carbon-fiber laminate after an impact."
+- label: "Test"
+  scale: "~1 m"
+  image: /assets/images/UTM.png
+  alt: "Composite specimen in a test frame with digital image correlation cameras"
+  caption: "A specimen under load, tracked by 3D digital image correlation cameras that map strain."

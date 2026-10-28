@@ -1,0 +1,40 @@
+---
+layout: default
+---
+{% include page-intro.html %}
+<section class="shell">
+  <article class="research-detail" id="approach">
+    <div class="research-label"><span class="theme-number">00</span><span class="micro">Our approach</span></div>
+    <div class="research-body">
+      {{ content }}
+    </div>
+  </article>
+  {%- for t in site.data.research.themes %}
+  <article class="research-detail" id="{{ t.id }}">
+    <div class="research-label"><span class="theme-number">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span><span class="micro">{{ t.tag }}</span></div>
+    <div class="research-body">
+      <h2>{{ t.title }}</h2>
+      <p class="lead">{{ t.lead }}</p>
+      <p>{{ t.body }}</p>
+      {% if t.image %}<figure><img src="{{ t.image | relative_url }}" alt="{{ t.image_alt }}" loading="lazy"></figure>{% endif %}
+      <div class="research-example"><span class="micro">Your role as a student</span><p>{{ t.role }}</p></div>
+    </div>
+  </article>
+  {%- endfor %}
+  <article class="research-detail" id="facilities">
+    <div class="research-label"><span class="theme-number">{% assign n = site.data.research.themes.size | plus: 1 %}{% if n < 10 %}0{% endif %}{{ n }}</span><span class="micro">Facilities</span></div>
+    <div class="research-body">
+      <h2>Tools of <em>the trade.</em></h2>
+      <p class="lead">Students in MOSAIX work hands-on with experimental and computational equipment.</p>
+      <div class="facility-grid">
+        {%- for f in site.data.research.facilities %}
+        <div class="facility"><h3>{{ f.name }}</h3><p>{{ f.detail }}</p></div>
+        {%- endfor %}
+      </div>
+    </div>
+  </article>
+</section>
+<section class="reading-note shell">
+  <div><p class="eyebrow">Get involved</p><h2>Want to work on<br><em>one of these?</em></h2></div>
+  <div><p>No prior experience is required, just curiosity and a willingness to learn. Tell us which project caught your eye.</p><a class="text-link" href="{{ '/join/' | relative_url }}">How to join the lab <span aria-hidden="true">↗</span></a></div>
+</section>

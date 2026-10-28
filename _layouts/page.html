@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% include page-intro.html %}
+<section class="shell prose-section{% if page.class %} {{ page.class }}{% endif %}">
+  <div class="prose">
+{{ content }}
+  </div>
+</section>
+{% if page.closing %}
+<section class="reading-note shell">
+  <div><p class="eyebrow">{{ page.closing.eyebrow }}</p><h2>{{ page.closing.heading }}</h2></div>
+  <div><p>{{ page.closing.text }}</p><a class="text-link" href="{{ page.closing.url | relative_url }}">{{ page.closing.link }} <span aria-hidden="true">↗</span></a></div>
+</section>
+{% endif %}

@@ -1,0 +1,39 @@
+# People shown on the People page.
+
+director:
+  name: "Pruthul Kokkada Ravindranath, Ph.D."
+  role: "Assistant Professor, Aerospace and Mechanical Engineering<br>Saint Louis University"
+  photo: /assets/images/profile-photo.jpg
+  bio: >-
+    Dr. Kokkada leads the MOSAIX Lab. His research combines molecular dynamics,
+    computational mechanics and experimental validation, including ultrasonic
+    and X-ray CT inspection, to design multifunctional composite and
+    nanostructured materials. He also works in additive manufacturing and
+    materials for extreme environments, and his work has led to U.S. patents
+    and FAA-certified technologies.
+  background: >-
+    Before joining SLU, he was a Research Scientist in Mechanical Engineering
+    at Baylor University. He holds a Ph.D. and M.S. in Aerospace Engineering
+    and Mechanics from the University of Alabama, an M.S. in Mechanical
+    Engineering and Engineering Mechanics from Michigan Technological
+    University, and a B.E. in Mechanical Engineering from Visvesvaraya
+    Technological University.
+  links:
+    - label: "Email"
+      url: "mailto:pruthul.kokkada@slu.edu"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?hl=en&user=lQvqdqEAAAAJ"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/pruthulkokkada/"
+    - label: "SLU profile"
+      url: "https://www.slu.edu/science-and-engineering/academics/aerospace-and-mechanical-engineering/faculty/pruthul-ravindranath.php"
+
+# Students. To add someone, copy the example below, remove the # signs,
+# and fill it in. Put their photo in assets/images/people/ (or leave photo
+# out and their initials are shown instead).
+#
+#  - name: "Student Name"
+#    role: "Ph.D. student"
+#    project: "Molecular dynamics of nanofilled epoxies"
+#    photo: /assets/images/people/student-name.jpg
+students: []
