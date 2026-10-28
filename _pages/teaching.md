@@ -3,7 +3,6 @@ title: "Teaching"
 permalink: /teaching/
 class: course-list
 eyebrow: "Teaching"
-heading: "Learning how<br><em>materials work.</em>"
 intro: "Courses taught by Dr. Kokkada in the Department of Aerospace and Mechanical Engineering at Saint Louis University."
 closing:
   eyebrow: "Beyond the classroom"

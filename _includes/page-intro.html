@@ -1,5 +1,5 @@
 <section class="page-intro shell">
   {% if page.eyebrow %}<p class="eyebrow"><span class="dot"></span> {{ page.eyebrow }}</p>{% endif %}
-  <h1>{{ page.heading | default: page.title }}</h1>
+  {% if page.heading %}<h1>{{ page.heading }}</h1>{% else %}<h1 class="sr-only">{{ page.title }}</h1>{% endif %}
   {% if page.intro %}<p class="intro-description">{{ page.intro }}</p>{% endif %}
 </section>

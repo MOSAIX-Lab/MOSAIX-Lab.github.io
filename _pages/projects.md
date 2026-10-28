@@ -3,7 +3,6 @@ title: "Research"
 permalink: /projects/
 layout: research
 eyebrow: "Research"
-heading: "From atoms<br>to <em>airframes.</em>"
 intro: "Our research connects the atomic scale to full engineering structures. Every project combines computation with hands-on experiments, and students at every level contribute."
 ---
 
